@@ -218,7 +218,7 @@ function Section() {
                             </div>
                             <div className="flex flex-col justify-center items-end ">
                                 <h1 className='text-[96px] font-inter italic font-bold text-white text-end '>
-                                    <span className='tracking-wider'>J U N K</span> <br /> FOOD
+                                    <span className='tracking-wider'>F A S T</span> <br /> FOOD
                                 </h1>
                                 <p className='text-[20px] font-inter italic font-bold text-white text-end'>General food refers to meals that are commonly consumed in daily life, either home-cooked or easily available at restaurants. These foods are familiar, nutritionally balanced</p>
                                 <div className="py-3">

@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MakinnumgunController;
+use App\Http\Controllers\ManagementController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -26,5 +27,6 @@ Route::middleware('auth')->group(function () {
 });
 
 Route::resource('makinnumgun', MakinnumgunController::class);
+Route::resource('management', ManagementController::class);
 
 require __DIR__.'/auth.php';
