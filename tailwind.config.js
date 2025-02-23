@@ -15,12 +15,12 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 inter:['Inter','serif'],
-
             },
             colors:{
                 navcolor: '#FF9F29',
                 btncolor: '#FF9F29',
                 footercolor: '#111827',
+                logocolor: '#ff4500'
             },
         },
     },

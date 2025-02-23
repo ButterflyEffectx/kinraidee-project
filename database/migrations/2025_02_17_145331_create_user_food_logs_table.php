@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained('users');
             $table->foreignId('food_id')->constrained('foods');
-            $table->string('catagory_id')->constrained('catagory');
+            $table->foreignId('catagory_id')->constrained('catagory');
             $table->decimal('servings',5,2);
             $table->integer('total_calories');
             $table->date('date');
